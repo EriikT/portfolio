@@ -9,11 +9,17 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: rgb(20, 44, 69);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 h1 {
     font-size: 50px;
-    margin: 25px;
+    margin: 20px;
     font-family: 'Caveat', cursive;
     font-family: 'Poppins', sans-serif;
 }
@@ -45,8 +51,6 @@ img {
         width: 300px;
     }
 }
-
-
 
 .portfolio {
     display: flex;
@@ -81,12 +85,20 @@ img {
     display: block;
     margin-top: 15px;
     text-decoration: none;
-    background-color: #1a2e8f;
+    background-color: #192250;
     color: white;
     padding: 8px 12px;
     border-radius: 5px;
 }
 
 .project-card a:hover {
-    background-color: #4554a0;
+    background-color: #182c8f;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(20, 44, 69);
+    /* position: sticky;
+    bottom: 0;
+    z-index: 999; */
 }
